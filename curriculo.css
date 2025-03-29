@@ -33,6 +33,15 @@ li {
     list-style-position: inside;
 }
 
+.imgContainer{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
 .center {
     text-align: center;
 }
@@ -70,4 +79,16 @@ a:hover {
     background-color: #333;
     color: #fff;
     text-decoration: none;
+}
+
+
+p {
+    text-indent: 40px; 
+}
+ 
+img {
+    height: 300px;
+    width: 250px;
+    border-radius: 300px;
+
 }
