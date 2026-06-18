@@ -528,6 +528,42 @@ margin:24px 0;
 padding:20px;
 }
 
+.project-preview{
+position:relative;
+overflow:hidden;
+border-radius:18px;
+border:1px solid var(--surface-border);
+background:rgba(255,255,255,0.04);
+aspect-ratio:16 / 10;
+box-shadow:0 18px 38px rgba(0,0,0,0.22);
+}
+
+.project-preview::after{
+content:"";
+position:absolute;
+inset:auto 0 0 0;
+height:42%;
+background:linear-gradient(180deg, transparent, rgba(10,16,25,0.12));
+pointer-events:none;
+}
+
+.project-preview img{
+width:100%;
+height:100%;
+object-fit:cover;
+transition:transform 0.5s ease;
+}
+
+.project-card:hover .project-preview img,
+.spotlight-copy:hover .project-preview img{
+transform:scale(1.03);
+}
+
+.project-preview-featured{
+margin-bottom:22px;
+aspect-ratio:16 / 9;
+}
+
 .feature-grid strong,
 .capability-card h3,
 .project-card h3,
