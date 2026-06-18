@@ -603,12 +603,13 @@ content:"→";
 .project-grid{
 grid-template-columns:repeat(2, minmax(0, 1fr));
 grid-auto-rows:1fr;
-column-gap:18px;
-row-gap:24px;
+column-gap:24px;
+row-gap:28px;
+margin-top:8px;
 }
 
 .project-card{
-padding:24px;
+padding:26px;
 display:flex;
 flex-direction:column;
 gap:20px;
@@ -695,12 +696,13 @@ margin-bottom:10px;
 
 .capability-grid{
 grid-template-columns:repeat(4, minmax(0, 1fr));
-column-gap:18px;
-row-gap:22px;
+column-gap:24px;
+row-gap:28px;
+margin-top:8px;
 }
 
 .capability-card{
-padding:24px;
+padding:26px;
 min-width:0;
 overflow:hidden;
 }
