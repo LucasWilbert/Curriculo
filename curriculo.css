@@ -612,7 +612,7 @@ margin-top:8px;
 padding:26px;
 display:flex;
 flex-direction:column;
-gap:16px;
+gap:18px;
 min-width:0;
 overflow:hidden;
 }
@@ -627,8 +627,8 @@ rgba(255,255,255,0.03);
 
 .project-tech{
 display:block;
-margin-top:6px;
-margin-bottom:8px;
+margin-top:10px;
+margin-bottom:14px;
 font-weight:800;
 color:#d9e6ff;
 }
@@ -638,7 +638,7 @@ display:flex;
 flex-wrap:wrap;
 gap:10px;
 margin-top:auto;
-padding-top:8px;
+padding-top:14px;
 }
 
 .project-links a{
@@ -713,8 +713,9 @@ margin-bottom:14px;
 
 .capability-card ul{
 display:grid;
-gap:8px;
+gap:12px;
 margin:0;
+padding-top:4px;
 }
 
 .capability-card li{
