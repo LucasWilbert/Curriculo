@@ -186,9 +186,13 @@ border-color:var(--text);
 
 .hero-grid{
 display:grid;
-grid-template-columns:minmax(0, 1.5fr) minmax(280px, 360px);
+grid-template-columns:minmax(0, 1.7fr) minmax(260px, 340px);
 gap:26px;
 align-items:stretch;
+}
+
+.hero-intro{
+min-width:0;
 }
 
 .eyebrow,
@@ -216,10 +220,10 @@ hyphens:none;
 }
 
 h1{
-max-width:12ch;
-font-size:clamp(3rem, 7vw, 5.9rem);
+max-width:none;
+font-size:clamp(2.9rem, 6.3vw, 5.4rem);
 margin:16px 0 18px;
-text-wrap:balance;
+text-wrap:pretty;
 overflow-wrap:normal;
 word-break:normal;
 hyphens:none;
@@ -818,8 +822,9 @@ flex-wrap:wrap;
 }
 
 h1{
-font-size:clamp(2.4rem, 14vw, 4rem);
+font-size:clamp(2.3rem, 11vw, 4rem);
 max-width:none;
+text-wrap:pretty;
 }
 
 .headline,
