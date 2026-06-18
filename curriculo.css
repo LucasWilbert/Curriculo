@@ -210,8 +210,9 @@ h3,
 .spotlight-highlight{
 font-family:"Sora", sans-serif;
 line-height:1.14;
-overflow-wrap:anywhere;
-hyphens:auto;
+overflow-wrap:normal;
+word-break:normal;
+hyphens:none;
 }
 
 h1{
@@ -219,6 +220,9 @@ max-width:12ch;
 font-size:clamp(3rem, 7vw, 5.9rem);
 margin:16px 0 18px;
 text-wrap:balance;
+overflow-wrap:normal;
+word-break:normal;
+hyphens:none;
 }
 
 .headline{
